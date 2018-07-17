@@ -1,0 +1,165 @@
+2018-06-11 17:58:12:415 - error: uncaughtException: Cannot set property 'exports' of undefined date=Mon Jun 11 2018 17:58:12 GMT+0800 (中国标准时间), pid=10980, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=38834176, heapTotal=20897792, heapUsed=14817480, external=815619, loadavg=[0, 0, 0], uptime=30215.2087062
+TypeError: Cannot set property 'exports' of undefined
+    at Object.<anonymous> (E:\小程序\jigsawServer\routes\img.js:33:16)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at module.exports (E:\小程序\jigsawServer\routes\index.js:3:20)
+    at Object.<anonymous> (E:\小程序\jigsawServer\app.js:37:1)
+2018-06-13 17:47:38:201 - error: uncaughtException: Cannot read property 'host' of undefined date=Wed Jun 13 2018 17:47:38 GMT+0800 (中国标准时间), pid=7708, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=33787904, heapTotal=18718720, heapUsed=11020224, external=346776, loadavg=[0, 0, 0], uptime=30455.0722053
+TypeError: Cannot read property 'host' of undefined
+    at Object.<anonymous> (E:\小程序\jigsawServer\lib\mysql.js:6:24)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (E:\小程序\jigsawServer\middlewares\comm.js:2:14)
+    at Module._compile (module.js:635:30)
+2018-07-04 14:17:48:705 - error: uncaughtException: model is not defined date=Wed Jul 04 2018 14:17:48 GMT+0800 (中国标准时间), pid=8684, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=41975808, heapTotal=31907840, heapUsed=15518400, external=91960, loadavg=[0, 0, 0], uptime=18381.5772007
+ReferenceError: model is not defined
+    at Object.<anonymous> (E:\小程序\jigsawServer\model\BaseModel.js:15:1)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (E:\小程序\jigsawServer\model\DriftModel.js:4:19)
+    at Module._compile (module.js:635:30)
+2018-07-05 10:14:24:039 - error: uncaughtException: Math.around is not a function date=Thu Jul 05 2018 10:14:24 GMT+0800 (中国标准时间), pid=7108, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=35618816, heapTotal=17711104, heapUsed=13339096, external=25632, loadavg=[0, 0, 0], uptime=3755.9110005
+TypeError: Math.around is not a function
+    at Array.async.auto.get (E:\小程序\jigsawServer\routes\drifter.js:41:31)
+    at listener (E:\小程序\jigsawServer\node_modules\async\lib\async.js:605:42)
+    at E:\小程序\jigsawServer\node_modules\async\lib\async.js:544:17
+    at _arrayEach (E:\小程序\jigsawServer\node_modules\async\lib\async.js:85:13)
+    at Immediate.taskComplete [as _onImmediate] (E:\小程序\jigsawServer\node_modules\async\lib\async.js:543:13)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+2018-07-05 10:15:02:506 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:15:02 GMT+0800 (中国标准时间), pid=5800, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43073536, heapTotal=32915456, heapUsed=13667232, external=73427, loadavg=[0, 0, 0], uptime=3794.3770005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:43:17)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+2018-07-05 10:16:30:988 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:16:30 GMT+0800 (中国标准时间), pid=5612, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43180032, heapTotal=32915456, heapUsed=13693648, external=101686, loadavg=[0, 0, 0], uptime=3882.8570005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:43:17)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+2018-07-05 10:17:13:047 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:17:13 GMT+0800 (中国标准时间), pid=5832, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43352064, heapTotal=32915456, heapUsed=13671056, external=73427, loadavg=[0, 0, 0], uptime=3924.9190005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:43:17)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+2018-07-05 10:18:09:670 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:18:09 GMT+0800 (中国标准时间), pid=676, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43270144, heapTotal=32915456, heapUsed=13734792, external=101686, loadavg=[0, 0, 0], uptime=3981.5400005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:43:17)
+    at execSql (E:\小程序\jigsawServer\model\DriftModel.js:31:13)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+2018-07-05 10:18:33:525 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:18:33 GMT+0800 (中国标准时间), pid=6280, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43094016, heapTotal=32915456, heapUsed=13716792, external=101690, loadavg=[0, 0, 0], uptime=4005.3970005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:43:17)
+    at execSql (E:\小程序\jigsawServer\model\DriftModel.js:31:13)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+2018-07-05 10:18:59:543 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:18:59 GMT+0800 (中国标准时间), pid=5276, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43429888, heapTotal=32915456, heapUsed=13725136, external=73431, loadavg=[0, 0, 0], uptime=4031.4150005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:43:17)
+    at execSql (E:\小程序\jigsawServer\model\DriftModel.js:31:13)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+2018-07-05 10:19:39:615 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:19:39 GMT+0800 (中国标准时间), pid=1968, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43114496, heapTotal=32915456, heapUsed=13744344, external=101690, loadavg=[0, 0, 0], uptime=4071.4850005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:44:17)
+    at execSql (E:\小程序\jigsawServer\model\DriftModel.js:31:13)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+2018-07-05 10:20:28:011 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:20:27 GMT+0800 (中国标准时间), pid=3204, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43241472, heapTotal=32915456, heapUsed=13745000, external=101690, loadavg=[0, 0, 0], uptime=4119.8810005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:45:17)
+    at execSql (E:\小程序\jigsawServer\model\DriftModel.js:31:13)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+2018-07-05 10:21:47:614 - error: uncaughtException: cb is not a function date=Thu Jul 05 2018 10:21:47 GMT+0800 (中国标准时间), pid=4024, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=42901504, heapTotal=32915456, heapUsed=13724472, external=101690, loadavg=[0, 0, 0], uptime=4199.4860005
+TypeError: cb is not a function
+    at driftModel.get (E:\小程序\jigsawServer\routes\drifter.js:51:17)
+    at execSql (E:\小程序\jigsawServer\model\DriftModel.js:31:13)
+    at Query._callback (E:\小程序\jigsawServer\middlewares\comm.js:51:17)
+    at Query.Sequence.end (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\小程序\jigsawServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\小程序\jigsawServer\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+2018-07-05 10:23:07:714 - error: uncaughtException: Cannot read property '0' of undefined date=Thu Jul 05 2018 10:23:07 GMT+0800 (中国标准时间), pid=8348, uid=null, gid=null, cwd=E:\小程序\jigsawServer, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.1, argv=[C:\Program Files\nodejs\node.exe, E:\小程序\jigsawServer\app.js], rss=43466752, heapTotal=32915456, heapUsed=13681512, external=74165, loadavg=[0, 0, 0], uptime=4279.5850005
+TypeError: Cannot read property '0' of undefined
+    at async.auto (E:\小程序\jigsawServer\routes\drifter.js:59:37)
+    at E:\小程序\jigsawServer\node_modules\async\lib\async.js:52:16
+    at E:\小程序\jigsawServer\node_modules\async\lib\async.js:550:17
+    at E:\小程序\jigsawServer\node_modules\async\lib\async.js:544:17
+    at _arrayEach (E:\小程序\jigsawServer\node_modules\async\lib\async.js:85:13)
+    at Immediate.taskComplete [as _onImmediate] (E:\小程序\jigsawServer\node_modules\async\lib\async.js:543:13)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
