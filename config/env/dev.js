@@ -15,5 +15,6 @@ module.exports = {
     baseDb: 'wxPintu',
     db: {
         'wxPintu': 'mysql',
-    }
+    },
+    host:'http://10.59.54.57:3086'
 };
