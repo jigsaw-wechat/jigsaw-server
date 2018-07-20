@@ -17,4 +17,5 @@ server/logs/
 
 # node server
 .cache
-# For testing
+.idea/
+public/img/
