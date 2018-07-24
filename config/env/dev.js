@@ -7,10 +7,10 @@ module.exports = {
     debug: true,                         // debug 为 true 时，用于本地调试，具体错误展示
     tokenSecret: 'shhdfd-hhhhardfedddsecsdds-infeng',
     mysql: {
-        host: '219.142.131.131',
-        user: 'zxbike',
+        host: '127.0.0.1',
+        user: 'root',
         port: 3306,
-        password: 'Zxbike2017.com',
+        password: '1234',
         database: ''
     },
     baseDb: 'wxPintu',
