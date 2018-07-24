@@ -18,7 +18,7 @@ const jwt = require('express-jwt');
 //     .unless({path: ['/', '/user/login','/img/upload','/img/download','/img/delete']}));  // 屏蔽不需要验证的路由
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+// app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
@@ -28,13 +28,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
-// catch 404 and forward to error handler
-// app.use(function(req, res, next) {
-//   let err = new Error('Not Found');
-//   err.status = 404;
-//   next(err);
-// });
 
 router(app);
 

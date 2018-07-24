@@ -8,7 +8,7 @@ class DriftModel extends BaseModel{
     * 创建一个漂流瓶
     * */
     create(param,callback){
-        let sql = 'insert into '+this.baseDb+'pintu (col,row,remark,img,nickName,avatarUrl) values (?,?,?,?,?,?)',
+        let sql = 'insert into '+this.baseDb+'pintu (col,rowNum,remark,img,nickName,avatarUrl) values (?,?,?,?,?,?)',
             option = [param.col,param.row,param.remark,param.img,param.nickName,param.avatarUrl];
         this.execSql({sql,option},callback)
     }
